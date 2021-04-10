@@ -1,8 +1,6 @@
 services:
   details:
     build: .
-    image: ghcr.io/sharkthoven/bookinfo-details:main
+    image: ghcr.io/sharkthoven/bookinfo-details:dev
     ports:
-      - "8080:8080"
-    environment:
-      SERVICE_VERSION: v1
+      - "9080:9080"
