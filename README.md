@@ -8,7 +8,7 @@ Details service has been developed on Ruby
 # Build Docker Image for rating service
 docker build -t details .
 
-# Run ratings service on port 8080 (Inside src folder)
+# Run ratings service on port 8080
 ruby details.rb 8080 
 ```
 
